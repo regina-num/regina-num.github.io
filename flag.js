@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".lng").html();$(".lng_menu_button").click(function(){$(".lng_menu").slideToggle(250),$(".lng_menu_button").addClass("lng_menu_button_clear")}),$("body").click(function(n){0==$(n.target).closest(".lng_menu_button").length&&($(".lng_menu").css("display","none"),$(".lng_menu_button").removeClass("lng_menu_button_clear"))})});
